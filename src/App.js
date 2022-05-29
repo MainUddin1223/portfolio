@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
+import { Route, Router, Routes } from 'react-router-dom';
 import './App.css';
+import Footer from './componants/Pages/Footer';
+import Header from './componants/Pages/Header';
+import Home from './componants/Pages/Home';
+import Spinner from './componants/Pages/Spinner';
 
 function App() {
-  return (
+  const [timer, setTimer] = useState(true)
+  useEffect(() => {
+    setTimeout(() => {
+      setTimer(false)
+    }, 1500)
+  }, [])
+  return timer ? <Spinner></Spinner> : (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header></Header>
+      <Routes>
+        <Route path='/' element={<Home></Home>}></Route>
+      </Routes>
+
+
+      <Footer></Footer>
     </div>
   );
 }
