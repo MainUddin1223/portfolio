@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faGithubSquare, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import bgImg from '../../images/webdesign.png'
 import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const Contact = () => {
@@ -10,10 +11,10 @@ const Contact = () => {
         console.log(data);
     }
     return (
-        <div className='font-serif  p-8'>
-            <div className='grid grid-cols-1  md:grid-cols-2 lg:w-3/4 mx-auto '>
+        <div className='font-serif  p-8 grid place-items-center h-screen bg-no-repeat  bg-center bg-cover bg-accent' style={{backgroundImage: `url(${bgImg})`}} >
+            <div className='grid grid-cols-1  md:grid-cols-2 lg:w-3/4 opacity-95'>
                 <div className=' lg:relative'>
-                    <div className='bg-orange-600 lg:w-3/4 md:p-8 py-4 rounded-t-xl md:rounded-l-xl lg:absolute inset-y-0 right-0'>
+                    <div className='bg-orange-600 lg:w-3/4  py-4 rounded-t-xl md:rounded-t-none md:rounded-l-xl lg:absolute inset-y-0 right-0'>
                         <div className='text-gray-100 pl-4 m-4'>
                             <h1 className='text-xl py-4'>CONTACT ME</h1>
                             <p className='text-xl py-2'> <FontAwesomeIcon icon={faLocationDot} className='text-3xl pr-2'/> Chottagram , Bangladesh</p>

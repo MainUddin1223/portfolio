@@ -1,18 +1,67 @@
+import aos from 'aos';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+
 
 const Header = () => {
+    aos.init();
     const navItem =
         <>
-            <li><Link to='/'>Home</Link></li>
-            <li><a>Blogs</a></li>
-            <li><a>Profile</a></li>
-            <li><a>Skills</a></li>
-            <li><a>Contact</a></li>
-            <li><a>Login</a></li>
+            <li> <NavLink
+                to="/"
+                className={({ isActive }) =>
+                    isActive && 'bg-green-700 font-bold'
+                }
+            >
+                Home
+            </NavLink></li>
+            <li> <NavLink
+                to="/projects"
+                className={({ isActive }) =>
+                    isActive && 'bg-green-700 '
+                }
+            >
+                Projects
+            </NavLink></li>
+            <li> <NavLink
+                to="/skills"
+                className={({ isActive }) =>
+                    isActive && 'bg-green-700 '
+                }
+            >
+                Skills
+            </NavLink></li>
+            <li> <NavLink
+                to="/services"
+                className={({ isActive }) =>
+                    isActive && 'bg-green-700 '
+                }
+            >
+                Services
+            </NavLink></li>
+            <li> <NavLink
+                to="/about"
+                className={({ isActive }) =>
+                    isActive && 'bg-green-700 '
+                }
+            >
+                About
+            </NavLink></li>
+            <li> <NavLink
+                to="/contact"
+                className={({ isActive }) =>
+                    isActive && 'bg-green-700 '
+                }
+            >
+                Contact
+            </NavLink></li>
+
         </>
     return (
-        <div className='bg-accent'>
+        <div className='bg-accent'
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="5500">
             <div class="navbar px-8  mx-auto text-white">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -27,7 +76,9 @@ const Header = () => {
                     </div>
                     <a class="btn btn-ghost normal-case text-xl"> MAIN UDDIN </a>
                 </div>
-                <div class="navbar-end hidden lg:flex">
+                <div class="navbar-end hidden lg:flex"
+                >
+
                     <ul class="menu mx-left menu-horizontal text-xl p-0">
                         {
                             navItem

@@ -11,7 +11,7 @@ const About = () => {
                 </div>
                 <div className='p-8'>
                     <h1 className='text-3xl my-4'>Hello Visitors</h1>
-                    <p className='text-xl my-2'>This is Md Main Uddin . I am a MERN developer. Here is my some important information about me,please have a look</p>
+                    <p className='text-xl my-2'>This is Md Main Uddin . I am a MERN stack developer. Here is some important information about me,please have a look</p>
                     <div className='grid grid-cols-1 md:grid-cols-2 '>
                         <div>
                             <h1 className='text-2xl my-2 font-bold'>Name : </h1>
