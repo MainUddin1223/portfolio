@@ -13,6 +13,7 @@ import Skills from './componants/Pages/Skills';
 import Spinner from './componants/Pages/Spinner';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Project1 from './componants/Pages/Project1';
 function App() {
   const [timer, setTimer] = useState(true)
   useEffect(() => {
@@ -26,7 +27,7 @@ function App() {
   }, []);
   return timer ? <Spinner></Spinner> : (
 
-    <div className="App">
+    <div className="bg-black overflow-x-hidden">
       <Header></Header>
       <div>
 
@@ -35,6 +36,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/projects' element={<Projects></Projects>}></Route>
+        <Route path='/projects/detail1' element={<Project1></Project1>}></Route>
+
         <Route path='/skills' element={<Skills></Skills>}></Route>
         <Route path='/services' element={<Services></Services>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>

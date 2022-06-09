@@ -10,7 +10,7 @@ const Header = () => {
             <li> <NavLink
                 to="/"
                 className={({ isActive }) =>
-                    isActive && 'bg-green-700 font-bold'
+                    isActive && 'bg-sky-900 font-bold'
                 }
             >
                 Home
@@ -50,7 +50,7 @@ const Header = () => {
             <li> <NavLink
                 to="/contact"
                 className={({ isActive }) =>
-                    isActive && 'bg-green-700 '
+                    isActive && 'bg-sky-300 '
                 }
             >
                 Contact
@@ -58,11 +58,11 @@ const Header = () => {
 
         </>
     return (
-        <div className='bg-accent'
+        <div className='bg-black py-4 font-serif sticky top-0 z-50'
             data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="5500">
-            <div class="navbar px-8  mx-auto text-white">
+            <div class="navbar w-3/4  mx-auto text-white">
                 <div class="navbar-start">
                     <div class="dropdown">
                         <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -74,7 +74,7 @@ const Header = () => {
                             }
                         </ul>
                     </div>
-                    <a class="btn btn-ghost normal-case text-xl"> MAIN UDDIN </a>
+                    <a class="btn btn-ghost normal-case md:text-4xl text-2xl"> MAIN UDDIN </a>
                 </div>
                 <div class="navbar-end hidden lg:flex"
                 >

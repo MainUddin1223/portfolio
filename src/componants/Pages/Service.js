@@ -6,7 +6,7 @@ const Service = ({ service, index }) => {
     const { name, description, services, img } = service;
     console.log(index);
     return (
-        <div className='mt-16'  data-aos-offset="1000">
+        <div className='mt-16 text-black'  data-aos-offset="1000">
             {index === 1 ? <div className='rounded-2xl m-4 lg:-mt-16 shadow-md hover:shadow-2xl bg-white'>
                 <img className='max-h-max w-full' src={img} alt="" />
                 <div className='p-4'>
