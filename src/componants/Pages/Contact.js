@@ -36,16 +36,16 @@ const Contact = () => {
                 <div class="divider lg:divider-horizontal"></div>
                     <div className='mt-4'>
                         <h1 className='text-2xl py-4 px-2'>Mail me</h1>
-                        <form onSubmit={handleSubmit(onSubmit)} ref={form} className="px-2">
-                            <input {...register("name", { required: true })} placeholder='Your name' className='block md:w-96  w-full input-bordered  input my-4 p-2 text-lg rounded' />
-                            {errors.name?.type === 'required' && <p className='text-red-500 text-xl'>Please put your name</p>}
+                        <form onSubmit={handleSubmit(onSubmit)} ref={form} className="px-2 ">
+                            <input {...register("name", { required: true })} placeholder='Your name' className='block md:mx-auto md:w-96  w-full input-bordered  input my-4 p-2 text-lg rounded ' />
+                            {errors.name?.type === 'required' && <p className='text-red-500 text-xl md:text-center lg:text-left'>Please put your name</p>}
 
-                            <input {...register("email", { required: true })} placeholder="Your Email" className='block w-full md:w-96 my-4  input input-bordered p-2 text-lg rounded' />
-                            {errors.email && <p className='text-red-500 text-xl my-2'>Please put your email</p>}
+                            <input {...register("email", { required: true })} placeholder="Your Email" className='block md:mx-auto w-full md:w-96 my-4  input input-bordered p-2 text-lg rounded ' />
+                            {errors.email && <p className='text-red-500 text-xl my-2  md:text-center lg:text-left'>Please put your email</p>}
 
-                            <textarea {...register("message", { required:true })} placeholder="Message" className='w-full   textarea textarea-bordered md:w-96 my-4 p-2 text-lg rounded-lg block mx-auto' rows="4"></textarea>
-                            {errors.message && <p className='text-red-500 text-xl my-2'> Please write something</p>}
-                            <input type="submit" value="Send" className='btn btn-accent mx-auto block my-4 text-white' />
+                            <textarea {...register("message", { required:true })} placeholder="Message" className='w-full  md:mx-auto textarea textarea-bordered md:w-96 my-4 p-2 text-lg rounded-lg block ' rows="4"></textarea>
+                            {errors.message && <p className='text-red-500 text-xl my-2  md:text-center lg:text-left'> Please write something</p>}
+                            <input type="submit" value="Send" className='btn btn-accent mx-auto block my-4 text-white ' />
                         </form>
                     </div>
             </div>

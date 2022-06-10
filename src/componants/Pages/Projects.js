@@ -59,15 +59,15 @@ const Projects = () => {
                         data-aos-anchor-placement="top-bottom"
                         className='md:w-3/4 md:absolute md:top-0 md:right-0 shadow-lg hover:shadow-2xl '>
                         <img src={project3} alt="" className='rounded-xl ' />
-                        <div className='project-demo-hover-reverse rounded-xl flex flex-col font-serif justify-center items-center'>
-                            <div className='text-white px-2'>
-                                <h1 className='text-2xl text-center py-4'>HM Electronics</h1>
+                        <div className='project-demo-hover rounded-xl flex flex-col font-serif justify-center items-center'>
+                        <div className='text-white px-2'>
+                                <h1 className='text-lg lg:text-2xl text-center py-1 lg:py-2'>HM Electronics</h1>
                                 <p className='text-center text-xl'>It is a Electronics product seeling Website</p>
                                 <div className="flex flex-wrap justify-center ">
-                                    <h1 className='m-4 px-4 py-2 rounded-lg bg-orange-600'><a href="http://hm-electronics.firebaseapp.com" target="_blank">Live Demo</a></h1>
-                                    <h1 className='m-4 px-4 py-2 rounded-lg bg-orange-600'><a href="https://github.com/MainUddin1223/tools-hub" target="_blank">Client Site Code</a></h1>
-                                    <h1 className='m-4 px-4 py-2 rounded-lg bg-orange-600'><a href="https://github.com/MainUddin1223/tools-hub-server" target="_blank">Server Site Code</a></h1>
-                                    <Link to="/projects/detail1"> <h1 className='m-4 px-4 py-2 rounded-lg bg-orange-600'>Details</h1></Link>
+                                    <h1 className='m-2 px-2 py-2  rounded-lg bg-orange-600'><a href="http://hm-electronics.firebaseapp.com" target="_blank">Live Demo</a></h1>
+                                    <h1 className='m-2 px-2 py-2 rounded-lg bg-orange-600'><a href="https://github.com/MainUddin1223/tools-hub" target="_blank">Client Site Code</a></h1>
+                                    <h1 className='m-2 px-2 py-2 rounded-lg bg-orange-600'><a href="https://github.com/MainUddin1223/tools-hub-server" target="_blank">Server Site Code</a></h1>
+                                    <Link to="/projects/detail1"> <h1 className='m-2 px-4 py-2 rounded-lg bg-orange-600'>Details</h1></Link>
                                 </div>
                             </div>
                         </div>
@@ -78,14 +78,14 @@ const Projects = () => {
                     data-aos-anchor-placement="top-bottom" className='shadow-lg project-demo hover:shadow-2xl  m-4'>
                     <img src={project4} alt="" className='rounded-xl ' />
                     <div className='project-demo-hover rounded-xl flex flex-col font-serif justify-center items-center'>
-                            <div className='text-white px-2'>
-                                <h1 className='text-2xl text-center py-4'>HM Electronics</h1>
+                        <div className='text-white px-2'>
+                                <h1 className='text-lg lg:text-2xl text-center py-1 lg:py-2'>HM Electronics</h1>
                                 <p className='text-center text-xl'>It is a Electronics product seeling Website</p>
                                 <div className="flex flex-wrap justify-center ">
-                                    <h1 className='m-4 px-4 py-2 rounded-lg bg-orange-600'><a href="http://hm-electronics.firebaseapp.com" target="_blank">Live Demo</a></h1>
-                                    <h1 className='m-4 px-4 py-2 rounded-lg bg-orange-600'><a href="https://github.com/MainUddin1223/tools-hub" target="_blank">Client Site Code</a></h1>
-                                    <h1 className='m-4 px-4 py-2 rounded-lg bg-orange-600'><a href="https://github.com/MainUddin1223/tools-hub-server" target="_blank">Server Site Code</a></h1>
-                                    <Link to="/projects/detail1"> <h1 className='m-4 px-4 py-2 rounded-lg bg-orange-600'>Details</h1></Link>
+                                    <h1 className='m-2 px-2 py-2  rounded-lg bg-orange-600'><a href="http://hm-electronics.firebaseapp.com" target="_blank">Live Demo</a></h1>
+                                    <h1 className='m-2 px-2 py-2 rounded-lg bg-orange-600'><a href="https://github.com/MainUddin1223/tools-hub" target="_blank">Client Site Code</a></h1>
+                                    <h1 className='m-2 px-2 py-2 rounded-lg bg-orange-600'><a href="https://github.com/MainUddin1223/tools-hub-server" target="_blank">Server Site Code</a></h1>
+                                    <Link to="/projects/detail1"> <h1 className='m-2 px-4 py-2 rounded-lg bg-orange-600'>Details</h1></Link>
                                 </div>
                             </div>
                         </div>

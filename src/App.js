@@ -27,13 +27,13 @@ function App() {
   }, []);
   return timer ? <Spinner></Spinner> : (
 
-    <div className="bg-black overflow-x-hidden">
+    <div className="bg-black ">
       <Header></Header>
       <div>
 
 
       </div>
-      <Routes>
+      <Routes className="overflow-x-hidden">
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/projects' element={<Projects></Projects>}></Route>
         <Route path='/projects/detail1' element={<Project1></Project1>}></Route>
