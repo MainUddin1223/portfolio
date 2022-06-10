@@ -14,6 +14,7 @@ import Spinner from './componants/Pages/Spinner';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Project1 from './componants/Pages/Project1';
+import Project2 from './componants/Pages/Project2';
 function App() {
   const [timer, setTimer] = useState(true)
   useEffect(() => {
@@ -37,6 +38,7 @@ function App() {
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/projects' element={<Projects></Projects>}></Route>
         <Route path='/projects/detail1' element={<Project1></Project1>}></Route>
+        <Route path='/projects/detail2' element={<Project2></Project2>}></Route>
 
         <Route path='/skills' element={<Skills></Skills>}></Route>
         <Route path='/services' element={<Services></Services>}></Route>

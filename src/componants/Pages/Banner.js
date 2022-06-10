@@ -3,14 +3,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import Typical from 'react-typical'
 import banner from '../../images/IMG_0527-removebg-preview.png'
-import background from '../../images/polygon-scatter-haikei.png'
+import background from '../../images/polygon-scatter-haikei.svg'
 
 
 const Banner = () => {
     return (
-        <div className='bg-black min-h-max pt-32 bg-no-repeat bg-cover bg-center text-white' style={{ backgroundImage: `url(${background})` }}>
+        <div className='overflow-x-hidden bg-black min-h-max pt-32 bg-no-repeat bg-cover bg-center text-white' style={{ backgroundImage: `url(${background})` }}>
             <div className='lg:w-3/4 mx-auto grid grid-cols-1 md:grid-cols-2 place-content-center'>
-                <div className='flex flex-col font-serif justify-center items-center '
+                <div className='flex flex-col font-sans justify-center items-center '
                     data-aos="fade-right"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine">

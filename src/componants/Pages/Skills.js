@@ -5,7 +5,7 @@ const Skills = () => {
 
 
     return (
-        <div className='my-16 md:w-3/4 px-4 mx-auto font-serif text-white'>
+        <div className='my-16 md:w-3/4 px-4 mx-auto font-sans text-white'>
             <div className='text-white'>
                 <h1 className='my-16 text-5xl font-bold '>MY SKILL STATUS</h1>
                 <p></p>

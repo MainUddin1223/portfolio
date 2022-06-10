@@ -13,11 +13,11 @@ const Service = ({ service, index }) => {
                     <h1 className='text-4xl'>{name}</h1>
                     <p className='text-xl mt-2'>{description}</p>
                     <ul className='text-xl'>
-                        {
+                        {/* {
                             services.map(service => <li className='my-1'>
                                 <FontAwesomeIcon className='font-fold text-primary px-2' icon={faArrowRight} />
                                 {service}</li>)
-                        }
+                        } */}
                     </ul>
                 </div>
             </div> : <div className='rounded-2xl m-4 shadow-md hover:shadow-2xl bg-white'>
@@ -26,11 +26,11 @@ const Service = ({ service, index }) => {
                     <h1 className='text-4xl'>{name}</h1>
                     <p className='text-xl mt-2'>{description}</p>
                     <ul className='text-xl'>
-                        {
+                        {/* {
                             services.map(service => <li>
                                 <FontAwesomeIcon className='font-fold text-primary px-2' icon={faArrowRight} />
                                 {service}</li>)
-                        }
+                        } */}
                     </ul>
                 </div>
             </div>}

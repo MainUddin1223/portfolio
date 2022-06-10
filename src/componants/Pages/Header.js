@@ -59,7 +59,7 @@ const Header = () => {
         </>
     return (
         <div className="sticky z-50 top-0">
-            <div className='bg-black py-4 font-serif '
+            <div className='bg-black py-4 font-sans '
                 data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="5500">

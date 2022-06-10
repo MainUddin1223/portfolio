@@ -28,7 +28,7 @@ const Services = () => {
     ]
 
     return (
-        <div className='min-h-screen md:w-3/4 mx-auto px-4 font-serif pt-16 text-white'>
+        <div className='min-h-screen md:w-3/4 mx-auto px-4 font-sans pt-16 text-white'>
             <h1 className='text-5xl font-bold py-8 '>Available Services</h1>
             <p className='text-xl py-2'>I am available to provide you below services</p>
             <p className='text-xl py-2'>Feel free to contact with me</p>
