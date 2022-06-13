@@ -18,10 +18,10 @@ const Skills = () => {
                     <p className='text-lg font-bold'>Bootstrap</p> <progress class="progress w-full md:w-96 block h-4  progress-info bg-white" value="70" max="100"></progress>
                     <p className='text-lg font-bold'>Tailwind</p> <progress class="progress w-full md:w-96 block h-4  progress-primary bg-white" value="80" max="100"></progress>
                     <p className='text-lg font-bold'>Javascript</p> <progress class="progress w-full md:w-96 block h-4  progress-info bg-white" value="70" max="100"></progress>
-                    <p className='text-lg font-bold'>Node.js</p> <progress class="progress w-full md:w-96 block h-4  progress-primary bg-white" value="45" max="100"></progress>
-                    <p className='text-lg font-bold'>Express.js</p> <progress class="progress w-full md:w-96 block h-4  progress-info bg-white" value="35" max="100"></progress>
+                    <p className='text-lg font-bold'>Node js</p> <progress class="progress w-full md:w-96 block h-4  progress-primary bg-white" value="45" max="100"></progress>
+                    <p className='text-lg font-bold'>Express js</p> <progress class="progress w-full md:w-96 block h-4  progress-info bg-white" value="35" max="100"></progress>
                     <p className='text-lg font-bold'>Firebase</p> <progress class="progress w-full md:w-96 block h-4  progress-primary bg-white" value="65" max="100"></progress>
-                    <p className='text-lg font-bold'>Mongobd</p> <progress class="progress w-full md:w-96 block h-4  progress-info bg-white" value="35" max="100"></progress>
+                    <p className='text-lg font-bold'>MongoDB</p> <progress class="progress w-full md:w-96 block h-4  progress-info bg-white" value="35" max="100"></progress>
 
                 </div>
                 <div className=''>

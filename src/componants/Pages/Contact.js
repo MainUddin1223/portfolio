@@ -8,10 +8,11 @@ import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-
 const Contact = () => {
     const { register, formState: { errors }, handleSubmit, reset } = useForm();
     const form = useRef()
-    const onSubmit = () => {
+    const onSubmit = (data) => {
         emailjs.sendForm('service_suzu2fm', 'template_tr98kzh', form.current, '6z7vq4Yv0xgyfP6E0')
             .then((result) => {
                 console.log(result.text);
+                alert('mail sent')
                 reset()
             }, (error) => {
                 console.log(error.text);
