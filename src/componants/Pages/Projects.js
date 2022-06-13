@@ -4,76 +4,12 @@ import project1 from '../../images/project-1.png'
 import project2 from '../../images/project-2.png'
 import project3 from '../../images/project-3.png'
 import project4 from '../../images/project-4.png'
-import project2_1 from '../../images/Car-Fantasy-1.png'
-import project2_2 from '../../images/Car-Fantasy-2.png'
-import project2_3 from '../../images/Car-Fantasy-3.png'
-import project2_4 from '../../images/Car-Fantasy-4.png'
-import project1_1 from '../../images/project-detail-3.png'
-import project1_2 from '../../images/project1-detail-3.png'
-import project1_3 from '../../images/project1-detail-2.png'
-import project1_4 from '../../images/project1-detail1.png'
-import project3_1 from '../../images/Home-Tutor1.png'
-import project3_2 from '../../images/Home-Tutor2.png'
-import project3_3 from '../../images/Home-Tutor2.png'
-import project3_4 from '../../images/Home-Tutor1.png'
-import project4_1 from '../../images/Health-Care1.png'
-import project4_2 from '../../images/Health-Care2.png'
-import project4_3 from '../../images/Health-Care3.png'
-import project4_4 from '../../images/Health-Care4.png'
+
 
 const Projects = () => {
-    const projects = [
-        {
-            id: 1,
-            name: "HM Electronics",
-            title: "It is a Electronics product seeling Website",
-            des: "It has Login Authentication system . User can see buy product from here. User can put feedback. Admin feature also developed in this website . An admin can see orders that are placed . He can also update a product or add a product even delete product.",
-            img: project1,
-            live: 'http://hm-electronics.firebaseapp.com',
-            clientSite: "https://github.com/MainUddin1223/tools-hub",
-            serverSite: "https://github.com/MainUddin1223/tools-hub-server",
-            technology: ["React js", "Tailwind css", "Css3", "Daisyui", "Node js", "Express js", "React Query", "Firebase", "Mongodb", "Heroku", "React Hook Form", "Axios", "JWT"],
-            demo: [project1_1, project1_2, project1_3, project1_4]
-        },
-        {
-            id: 2,
-            name: "Car Fantasy",
-            title: "It is a warehouse management Website",
-            des: "It is a warehouse management website. Car dealers can store their cars in the warehouse through the website.They can add , remove , or decrease or increase their cars as hey need .",
-            img: project2,
-            live: 'http://hm-electronics.firebaseapp.com',
-            clientSite: "https://github.com/MainUddin1223/car-fantasy-client",
-            serverSite: "https://github.com/MainUddin1223/car-fantasy-server",
-            technology: ["React js", "Tailwind css", "Css3", "Daisyui", "Node js", "Express js", "React Query", "Firebase", "Mongodb", "Heroku", "React Hook Form", "Axios", "JWT"],
-            demo: [project2_1, project2_2, project2_3, project2_4]
-        },
-        {
-            id: 3,
-            name: "Home Tutor",
-            title: "It is a Course selling",
-            des: "It is a Course selling website.It has login authentication.Students can purchase course clicking a button",
-            img: project1,
-            live: 'home-tutor-ec1d8.web.app',
-            clientSite: "https://github.com/MainUddin1223/Home-tutor",
-            serverSite: "",
-            technology: ["React js", "Bootstrap", "Css3", "Firebase"],
-            demo: [project3_1, project3_2, project3_3, project3_4]
-        },
-        {
-            id: 4,
-            name: "One Health",
-            title: "It is a Medical Management website",
-            img: project1,
-            live: 'https://mainuddin1223.github.io/One-health/',
-            clientSite: "https://github.com/MainUddin1223/One-health",
-            serverSite: "",
-            technology: ["HTML", "CSS", "Bootstrap", "JavaScript"],
-            demo: [project4_1, project4_2, project4_3, project4_4]
-        }
 
-    ]
     return (
-        <div className='lg:w-3/4 mx-auto text-white font-sans'>
+        <div className='lg:w-3/4 mx-auto text-white min-h-screen font-sans'>
             <div className=' p-4'>
                 <h1 className='text-5xl  py-4 '>Projects</h1>
                 <p className='text-xl my-2   lg:px-0'>I have done many projects.All of them , Some projects are given below</p>

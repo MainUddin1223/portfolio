@@ -1,8 +1,6 @@
 import React from 'react';
-import project1 from '../../images/Car-Fantasy-1.png'
-import project2 from '../../images/Car-Fantasy-2.png'
-import project3 from '../../images/Car-Fantasy-3.png'
-import project4 from '../../images/Car-Fantasy-4.png'
+import project1 from '../../images/Untitled design (1).png'
+import project2 from '../../images/Untitled design (2).png'
 
 const Project2 = () => {
     return (
@@ -34,11 +32,10 @@ const Project2 = () => {
             </div>
             <div className='shadow-lg hover:shadow-2xl shadow-4xl  m-4'>
                 <div className=' project-demo'>
-                    <div className='md:w-3/4 px-4 grid grid-cols-4 mx-auto gap-4'>
-                        <img src={project1} alt="" className=' ' />
-                        <img src={project2} alt="" className=' ' />
-                        <img src={project3} alt="" className='' />
-                        <img src={project4} alt="" className=' ' />
+                    <h1 className='text-3xl text-center text-white my-8'>Project Overview</h1>
+                    <div className='md:w-3/4 px-4 grid grid-cols-2 mx-auto gap-8'>
+                        <img src={project1} alt="" className=' w-full mx-2' />
+                        <img src={project2} alt="" className='w-full mx-2' />
                     </div>
                 </div>
             </div>

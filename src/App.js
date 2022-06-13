@@ -17,6 +17,7 @@ import Project1 from './componants/Pages/Project1';
 import Project2 from './componants/Pages/Project2';
 import Project3 from './componants/Pages/Project3';
 import Project4 from './componants/Pages/Project4';
+import ScrollToTop from './componants/Pages/ScrollToTop';
 function App() {
   const [timer, setTimer] = useState(true)
   useEffect(() => {
@@ -32,11 +33,9 @@ function App() {
 
     <div className="bg-black ">
       <Header></Header>
-      <div>
-
-
-      </div>
+      <ScrollToTop>
       <Routes className="overflow-x-hidden">
+      
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/projects' element={<Projects></Projects>}></Route>
         <Route path='/projects/detail1' element={<Project1></Project1>}></Route>
@@ -48,8 +47,9 @@ function App() {
         <Route path='/services' element={<Services></Services>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/about' element={<About></About>}></Route>
-      </Routes>
 
+      </Routes>
+      </ScrollToTop>
       <Footer></Footer>
     </div>
   );

@@ -19,8 +19,8 @@ const Contact = () => {
             });
     }
     return (
-        <div className='font-sans  md:p-8 mx-2 grid place-items-center  my-4 ' >
-            <div className='lg:w-3/4 w-full lg:mx-auto mx-4 flex flex-col justify-around  lg:flex-row bg-white'>
+        <div className='font-sans  md:p-8 mx-2 grid place-items-center  my-4 min-h-screen' >
+            <div className='lg:w-3/4 w-full lg:mx-auto mx-4 flex flex-col justify-around  lg:flex-row bg-gray-200'>
                 <div className=' pl-4 m-4'>
                     <h1 className='text-xl py-4'>CONTACT ME</h1>
                     <p className='text-xl py-2'> <FontAwesomeIcon icon={faLocationDot} className='text-3xl pr-2' /> Chottagram , Bangladesh</p>
